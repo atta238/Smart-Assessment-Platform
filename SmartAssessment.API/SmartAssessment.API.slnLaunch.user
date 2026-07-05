@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "smartassessment.api.client\\smartassessment.api.client.esproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

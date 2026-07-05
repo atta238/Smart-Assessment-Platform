@@ -1,0 +1,659 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\project_file\\SmartAssessment.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|d:\\project_file\\smartassessment.api\\smartassessment.api.client\\src\\pages\\editquestion.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\pages\\editquestion.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|d:\\project_file\\smartassessment.api\\smartassessment.api.server\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|solutionrelative:smartassessment.api.server\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|d:\\project_file\\smartassessment.api\\smartassessment.api.server\\dtos\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|solutionrelative:smartassessment.api.server\\dtos\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|d:\\project_file\\smartassessment.api\\smartassessment.api.server\\controllers\\choicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|solutionrelative:smartassessment.api.server\\controllers\\choicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|d:\\project_file\\smartassessment.api\\smartassessment.api.server\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|solutionrelative:smartassessment.api.server\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|d:\\project_file\\smartassessment.api\\smartassessment.api.server\\controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|solutionrelative:smartassessment.api.server\\controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|d:\\project_file\\smartassessment.api\\smartassessment.api.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|solutionrelative:smartassessment.api.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|d:\\project_file\\smartassessment.api\\smartassessment.api.server\\models\\choice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|solutionrelative:smartassessment.api.server\\models\\choice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|d:\\project_file\\smartassessment.api\\smartassessment.api.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|solutionrelative:smartassessment.api.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|d:\\project_file\\smartassessment.api\\smartassessment.api.client\\src\\pages\\instructordashboard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\pages\\instructordashboard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|d:\\project_file\\smartassessment.api\\smartassessment.api.client\\src\\pages\\editexam.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\pages\\editexam.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|d:\\project_file\\smartassessment.api\\smartassessment.api.client\\src\\pages\\createexam.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\pages\\createexam.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|d:\\project_file\\smartassessment.api\\smartassessment.api.client\\src\\pages\\addquestion.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\pages\\addquestion.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|d:\\project_file\\smartassessment.api\\smartassessment.api.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|d:\\project_file\\smartassessment.api\\smartassessment.api.client\\src\\pages\\questions.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\pages\\questions.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|d:\\project_file\\smartassessment.api\\smartassessment.api.client\\src\\pages\\result.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\pages\\result.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|d:\\project_file\\smartassessment.api\\smartassessment.api.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|d:\\project_file\\smartassessment.api\\smartassessment.api.client\\src\\pages\\studentdashboard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\pages\\studentdashboard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|d:\\project_file\\smartassessment.api\\smartassessment.api.client\\src\\pages\\solveexam.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\pages\\solveexam.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|d:\\project_file\\smartassessment.api\\smartassessment.api.client\\src\\pages\\login.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\pages\\login.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\ManageQuestions.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:smartassessment.api.client\\src\\pages\\ManageQuestions.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|d:\\project_file\\smartassessment.api\\smartassessment.api.server\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|solutionrelative:smartassessment.api.server\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|d:\\project_file\\smartassessment.api\\smartassessment.api.server\\dtos\\submitexamrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|solutionrelative:smartassessment.api.server\\dtos\\submitexamrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|d:\\project_file\\smartassessment.api\\smartassessment.api.server\\dtos\\submitexamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|solutionrelative:smartassessment.api.server\\dtos\\submitexamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|d:\\project_file\\smartassessment.api\\smartassessment.api.server\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|solutionrelative:smartassessment.api.server\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|d:\\project_file\\smartassessment.api\\smartassessment.api.server\\dtos\\submitanswerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|solutionrelative:smartassessment.api.server\\dtos\\submitanswerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|d:\\project_file\\smartassessment.api\\smartassessment.api.client\\src\\api\\api.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\api\\api.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|d:\\project_file\\smartassessment.api\\smartassessment.api.client\\smartassessment.api.client.esproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\smartassessment.api.client.esproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|d:\\project_file\\smartassessment.api\\smartassessment.api.client\\src\\pages\\register.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\pages\\register.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|d:\\project_file\\smartassessment.api\\smartassessment.api.client\\src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|d:\\project_file\\smartassessment.api\\smartassessment.api.client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{59AC7436-9ED6-8AB7-8614-88B644FF00B3}|smartassessment.api.client\\smartassessment.api.client.esproj|solutionrelative:smartassessment.api.client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|d:\\project_file\\smartassessment.api\\smartassessment.api.server\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|solutionrelative:smartassessment.api.server\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|d:\\project_file\\smartassessment.api\\smartassessment.api.server\\dtos\\examdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|solutionrelative:smartassessment.api.server\\dtos\\examdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|d:\\project_file\\smartassessment.api\\smartassessment.api.server\\models\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|solutionrelative:smartassessment.api.server\\models\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|d:\\project_file\\smartassessment.api\\smartassessment.api.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|solutionrelative:smartassessment.api.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|d:\\project_file\\smartassessment.api\\smartassessment.api.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|solutionrelative:smartassessment.api.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|d:\\project_file\\smartassessment.api\\smartassessment.api.server\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|solutionrelative:smartassessment.api.server\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|d:\\project_file\\smartassessment.api\\smartassessment.api.server\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5FBAD75-D230-44E2-9018-7A751C5AEBB9}|SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj|solutionrelative:smartassessment.api.server\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "SmartAssessment.API.Server\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "SmartAssessment.API.Server\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T00:44:00.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InstructorDashboard.tsx",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\InstructorDashboard.tsx",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\pages\\InstructorDashboard.tsx",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\InstructorDashboard.tsx",
+              "RelativeToolTip": "smartassessment.api.client\\src\\pages\\InstructorDashboard.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-03T15:52:34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "App.css",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\App.css",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\App.css",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\App.css",
+              "RelativeToolTip": "smartassessment.api.client\\src\\App.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-03T15:35:04.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExamController.cs",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\Controllers\\ExamController.cs",
+              "RelativeDocumentMoniker": "SmartAssessment.API.Server\\Controllers\\ExamController.cs",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\Controllers\\ExamController.cs",
+              "RelativeToolTip": "SmartAssessment.API.Server\\Controllers\\ExamController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T15:26:16.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Question.cs",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\Models\\Question.cs",
+              "RelativeDocumentMoniker": "SmartAssessment.API.Server\\Models\\Question.cs",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\Models\\Question.cs",
+              "RelativeToolTip": "SmartAssessment.API.Server\\Models\\Question.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T22:33:16.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuestionController.cs",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\Controllers\\QuestionController.cs",
+              "RelativeDocumentMoniker": "SmartAssessment.API.Server\\Controllers\\QuestionController.cs",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\Controllers\\QuestionController.cs",
+              "RelativeToolTip": "SmartAssessment.API.Server\\Controllers\\QuestionController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwDsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T16:12:51.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuestionDto.cs",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\DTOs\\QuestionDto.cs",
+              "RelativeDocumentMoniker": "SmartAssessment.API.Server\\DTOs\\QuestionDto.cs",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\DTOs\\QuestionDto.cs",
+              "RelativeToolTip": "SmartAssessment.API.Server\\DTOs\\QuestionDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T15:16:48.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditQuestion.tsx",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\EditQuestion.tsx",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\pages\\EditQuestion.tsx",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\EditQuestion.tsx",
+              "RelativeToolTip": "smartassessment.api.client\\src\\pages\\EditQuestion.tsx",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-04T20:45:00.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChoiceController.cs",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\Controllers\\ChoiceController.cs",
+              "RelativeDocumentMoniker": "SmartAssessment.API.Server\\Controllers\\ChoiceController.cs",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\Controllers\\ChoiceController.cs",
+              "RelativeToolTip": "SmartAssessment.API.Server\\Controllers\\ChoiceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T00:48:18.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditExam.tsx",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\EditExam.tsx",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\pages\\EditExam.tsx",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\EditExam.tsx",
+              "RelativeToolTip": "smartassessment.api.client\\src\\pages\\EditExam.tsx",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAUwHgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-04T20:16:27.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateExam.tsx",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\CreateExam.tsx",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\pages\\CreateExam.tsx",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\CreateExam.tsx",
+              "RelativeToolTip": "smartassessment.api.client\\src\\pages\\CreateExam.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-03T15:53:23.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddQuestion.tsx",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\AddQuestion.tsx",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\pages\\AddQuestion.tsx",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\AddQuestion.tsx",
+              "RelativeToolTip": "smartassessment.api.client\\src\\pages\\AddQuestion.tsx",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAAAHcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-04T19:47:58.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\Program.cs",
+              "RelativeDocumentMoniker": "SmartAssessment.API.Server\\Program.cs",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\Program.cs",
+              "RelativeToolTip": "SmartAssessment.API.Server\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T15:07:15.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Choice.cs",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\Models\\Choice.cs",
+              "RelativeDocumentMoniker": "SmartAssessment.API.Server\\Models\\Choice.cs",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\Models\\Choice.cs",
+              "RelativeToolTip": "SmartAssessment.API.Server\\Models\\Choice.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAgwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T22:33:18.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Result.tsx",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\Result.tsx",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\pages\\Result.tsx",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\Result.tsx",
+              "RelativeToolTip": "smartassessment.api.client\\src\\pages\\Result.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-03T15:55:36.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.tsx",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\App.tsx",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\App.tsx",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\App.tsx",
+              "RelativeToolTip": "smartassessment.api.client\\src\\App.tsx",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-03T15:35:06.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "SmartAssessment.API.Server\\DTOs\\LoginDto.cs",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "SmartAssessment.API.Server\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T17:01:55.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StudentDashboard.tsx",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\StudentDashboard.tsx",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\pages\\StudentDashboard.tsx",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\StudentDashboard.tsx",
+              "RelativeToolTip": "smartassessment.api.client\\src\\pages\\StudentDashboard.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-03T15:51:56.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Questions.tsx",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\Questions.tsx",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\pages\\Questions.tsx",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\Questions.tsx",
+              "RelativeToolTip": "smartassessment.api.client\\src\\pages\\Questions.tsx",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-04T20:30:44.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SolveExam.tsx",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\SolveExam.tsx",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\pages\\SolveExam.tsx",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\SolveExam.tsx",
+              "RelativeToolTip": "smartassessment.api.client\\src\\pages\\SolveExam.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-03T15:54:37.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Login.tsx",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\Login.tsx",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\pages\\Login.tsx",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\Login.tsx",
+              "RelativeToolTip": "smartassessment.api.client\\src\\pages\\Login.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-03T15:48:17.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "smartassessment.api.client",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\smartassessment.api.client.esproj",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\smartassessment.api.client.esproj",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\smartassessment.api.client.esproj",
+              "RelativeToolTip": "smartassessment.api.client\\smartassessment.api.client.esproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-07-03T16:11:00.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ManageQuestions.tsx",
+              "DocumentMoniker": "d:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\ManageQuestions.tsx",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\pages\\ManageQuestions.tsx",
+              "ToolTip": "d:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\ManageQuestions.tsx",
+              "RelativeToolTip": "smartassessment.api.client\\src\\pages\\ManageQuestions.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-04T19:42:39.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SubmitExamDto.cs",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\DTOs\\SubmitExamDto.cs",
+              "RelativeDocumentMoniker": "SmartAssessment.API.Server\\DTOs\\SubmitExamDto.cs",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\DTOs\\SubmitExamDto.cs",
+              "RelativeToolTip": "SmartAssessment.API.Server\\DTOs\\SubmitExamDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T16:51:35.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SubmitExamRequestDto.cs",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\DTOs\\SubmitExamRequestDto.cs",
+              "RelativeDocumentMoniker": "SmartAssessment.API.Server\\DTOs\\SubmitExamRequestDto.cs",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\DTOs\\SubmitExamRequestDto.cs",
+              "RelativeToolTip": "SmartAssessment.API.Server\\DTOs\\SubmitExamRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T16:52:45.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SubmitAnswerDto.cs",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\DTOs\\SubmitAnswerDto.cs",
+              "RelativeDocumentMoniker": "SmartAssessment.API.Server\\DTOs\\SubmitAnswerDto.cs",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\DTOs\\SubmitAnswerDto.cs",
+              "RelativeToolTip": "SmartAssessment.API.Server\\DTOs\\SubmitAnswerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T16:52:15.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "SmartAssessment.API.Server\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "SmartAssessment.API.Server\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAwwHQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T16:53:34.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "api.ts",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\api\\api.ts",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\api\\api.ts",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\api\\api.ts",
+              "RelativeToolTip": "smartassessment.api.client\\src\\api\\api.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-03T16:03:29.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "main.tsx",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\main.tsx",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\main.tsx",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\main.tsx",
+              "RelativeToolTip": "smartassessment.api.client\\src\\main.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-03T16:38:01.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "package.json",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\package.json",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\package.json",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\package.json",
+              "RelativeToolTip": "smartassessment.api.client\\package.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-03T16:38:40.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Register.tsx",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\Register.tsx",
+              "RelativeDocumentMoniker": "smartassessment.api.client\\src\\pages\\Register.tsx",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\smartassessment.api.client\\src\\pages\\Register.tsx",
+              "RelativeToolTip": "smartassessment.api.client\\src\\pages\\Register.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-07-03T15:50:47.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Result.cs",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\Models\\Result.cs",
+              "RelativeDocumentMoniker": "SmartAssessment.API.Server\\Models\\Result.cs",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\Models\\Result.cs",
+              "RelativeToolTip": "SmartAssessment.API.Server\\Models\\Result.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T22:33:14.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "SmartAssessment.API.Server\\appsettings.Development.json",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\appsettings.Development.json",
+              "RelativeToolTip": "SmartAssessment.API.Server\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-27T23:03:32.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ExamDto.cs",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\DTOs\\ExamDto.cs",
+              "RelativeDocumentMoniker": "SmartAssessment.API.Server\\DTOs\\ExamDto.cs",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\DTOs\\ExamDto.cs",
+              "RelativeToolTip": "SmartAssessment.API.Server\\DTOs\\ExamDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T14:59:24.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Exam.cs",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\Models\\Exam.cs",
+              "RelativeDocumentMoniker": "SmartAssessment.API.Server\\Models\\Exam.cs",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\Models\\Exam.cs",
+              "RelativeToolTip": "SmartAssessment.API.Server\\Models\\Exam.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T22:33:17.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "SmartAssessment.API.Server\\appsettings.json",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\appsettings.json",
+              "RelativeToolTip": "SmartAssessment.API.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-29T14:50:14.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SmartAssessment.API.Server\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SmartAssessment.API.Server\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswCAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T22:31:56.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "SmartAssessment.API.Server\\Models\\Role.cs",
+              "ToolTip": "D:\\project_file\\SmartAssessment.API\\SmartAssessment.API.Server\\Models\\Role.cs",
+              "RelativeToolTip": "SmartAssessment.API.Server\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T22:33:08.567Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
