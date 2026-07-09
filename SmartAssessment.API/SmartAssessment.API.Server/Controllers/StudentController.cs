@@ -20,6 +20,87 @@ public class StudentController : ControllerBase
         _context = context;
     }
 
+
+    [HttpPost("start/{examId}")]
+    public async Task<IActionResult> StartExam(int examId)
+    {
+        var studentId = int.Parse(
+            User.FindFirst(ClaimTypes.NameIdentifier)!.Value
+        );
+
+        var exam = await _context.Exams.FindAsync(examId);
+
+        if (exam == null)
+            return NotFound("Exam not found");
+
+        var studentExam = await _context.StudentExams
+            .FirstOrDefaultAsync(x =>
+                x.StudentId == studentId &&
+                x.ExamId == examId);
+
+        if (studentExam != null && studentExam.SubmittedAt != null)
+        {
+            return BadRequest("Exam already submitted");
+        }
+
+        if (studentExam == null)
+        {
+            studentExam = new StudentExam
+            {
+                StudentId = studentId,
+                ExamId = examId,
+                StartedAt = DateTime.Now
+            };
+
+            _context.StudentExams.Add(studentExam);
+            await _context.SaveChangesAsync();
+        }
+
+        return Ok(new
+        {
+            duration = exam.Duration,
+            startedAt = studentExam.StartedAt
+        });
+    }
+
+
+    [HttpGet("remaining-time/{examId}")]
+    public async Task<IActionResult> GetRemainingTime(int examId)
+    {
+        var studentId = int.Parse(
+            User.FindFirst(ClaimTypes.NameIdentifier)!.Value
+        );
+
+        var exam = await _context.Exams.FindAsync(examId);
+
+        if (exam == null)
+            return NotFound("Exam not found");
+
+        var studentExam = await _context.StudentExams
+            .FirstOrDefaultAsync(x =>
+                x.StudentId == studentId &&
+                x.ExamId == examId);
+
+        if (studentExam == null)
+            return BadRequest("Exam was not started");
+
+        var endTime = studentExam.StartedAt.AddMinutes(exam.Duration);
+
+        var remainingSeconds = Math.Max(
+            (int)(endTime - DateTime.Now).TotalSeconds,
+            0
+        );
+
+        Console.WriteLine($"StartedAt: {studentExam.StartedAt}");
+        Console.WriteLine($"Now: {DateTime.Now}");
+        Console.WriteLine($"Remaining: {remainingSeconds}");
+
+        return Ok(new
+        {
+            remainingSeconds
+        });
+    }
+
     [HttpPost("submit")]
     public async Task<IActionResult> SubmitExam(SubmitExamRequestDto dto)
     {
@@ -32,7 +113,37 @@ public class StudentController : ControllerBase
             .FirstOrDefaultAsync(e => e.Id == dto.ExamId);
 
         if (exam == null)
-            return NotFound("Exam not found.");
+            return NotFound("Exam not found");
+
+        var existingResult = await _context.Results
+            .FirstOrDefaultAsync(r =>
+                r.StudentId == studentId &&
+                r.ExamId == dto.ExamId);
+
+        if (existingResult != null)
+            return BadRequest("Exam already submitted");
+
+        var studentExam = await _context.StudentExams
+            .FirstOrDefaultAsync(x =>
+                x.StudentId == studentId &&
+                x.ExamId == dto.ExamId);
+
+        if (studentExam == null)
+            return BadRequest("Exam was not started");
+
+        if (studentExam.SubmittedAt != null)
+            return BadRequest("Exam already submitted");
+
+        var examEndTime = studentExam.StartedAt.AddMinutes(exam.Duration);
+
+        if (DateTime.Now > examEndTime)
+        {
+            studentExam.SubmittedAt = examEndTime;
+        }
+        else
+        {
+            studentExam.SubmittedAt = DateTime.Now;
+        }
 
         int totalScore = exam.Questions.Sum(q => q.Score);
         int studentScore = 0;
@@ -56,8 +167,7 @@ public class StudentController : ControllerBase
 
             if (choice.IsCorrect)
             {
-                var question = await _context.Questions
-                    .FindAsync(answer.QuestionId);
+                var question = await _context.Questions.FindAsync(answer.QuestionId);
 
                 if (question != null)
                     studentScore += question.Score;
@@ -105,7 +215,7 @@ public class StudentController : ControllerBase
                 r.StudentId == studentId);
 
         if (result == null)
-            return NotFound("Result not found.");
+            return NotFound("Result not found");
 
         return Ok(new ResultDto
         {

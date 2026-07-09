@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import api from "../api/api";
-
+import Navbar from "../components/Navbar";
 function Questions() {
 
     const { id } = useParams();
@@ -50,6 +50,8 @@ function Questions() {
     };
 
     return (
+        <>
+        <Navbar />
 
         <div style={{ width: "70%", margin: "auto" }}>
 
@@ -133,7 +135,7 @@ function Questions() {
             }
 
         </div>
-
+        </>
     );
 
 }

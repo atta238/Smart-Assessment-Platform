@@ -38,7 +38,7 @@ public class AuthController : ControllerBase
             FullName = dto.FullName,
             Email = dto.Email,
             PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password),
-            RoleId = dto.RoleId,
+            RoleId = 2,
             CreatedAt = DateTime.Now
         };
 

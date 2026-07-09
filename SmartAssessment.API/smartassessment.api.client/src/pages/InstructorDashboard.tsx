@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import api from "../api/api";
-
+import Navbar2 from "../components/Navbar2";
 function InstructorDashboard() {
 
     const navigate = useNavigate();
@@ -48,6 +48,9 @@ function InstructorDashboard() {
     };
 
     return (
+
+        <>
+            <Navbar2 />
 
         <div style={{ padding: "30px" }}>
 
@@ -108,7 +111,7 @@ function InstructorDashboard() {
             ))}
 
         </div>
-
+        </>
     );
 
 }

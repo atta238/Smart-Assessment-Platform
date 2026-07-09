@@ -2,11 +2,29 @@ import { useState } from "react";
 import api from "../api/api";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 function Login() {
+
 
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const navigate = useNavigate();
+
+    useEffect(() => {
+
+        const token = localStorage.getItem("token");
+        const role = localStorage.getItem("role");
+
+        if (!token)
+            return;
+
+        if (role === "Instructor")
+            navigate("/instructor", { replace: true });
+
+        else if (role === "Student")
+            navigate("/student", { replace: true });
+
+    }, [navigate]);
     const handleLogin = async () => {
 
         try {
@@ -17,16 +35,15 @@ function Login() {
                 password
 
             });
-            localStorage.setItem("token", response.data.token);
             const { token, role } = response.data;
 
             localStorage.setItem("token", token);
             localStorage.setItem("role", role);
 
             if (role === "Instructor") {
-                navigate("/instructor");
+                navigate("/instructor", { replace: true });
             } else {
-                navigate("/student");
+                navigate("/student", { replace: true });
             }
 
         }
@@ -66,8 +83,15 @@ function Login() {
             <br />
             <br />
 
-            <button onClick={handleLogin}>
+            <button onClick={handleLogin}>  
                 Login
+            </button>
+
+            <br />
+            <br />
+
+            <button onClick={() => navigate("/signup")}>
+                Don't have an account? Sign Up
             </button>
 
         </div>

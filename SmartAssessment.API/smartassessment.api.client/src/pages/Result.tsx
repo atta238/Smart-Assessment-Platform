@@ -1,6 +1,23 @@
 import { useLocation } from "react-router-dom";
+import Navbar from "../components/Navbar";
+import { useEffect } from "react";
+
 
 function Result() {
+
+    useEffect(() => {
+        window.history.pushState(null, "", window.location.href);
+
+        const handleBack = () => {
+            window.history.pushState(null, "", window.location.href);
+        };
+
+        window.addEventListener("popstate", handleBack);
+
+        return () => {
+            window.removeEventListener("popstate", handleBack);
+        };
+    }, []);
 
     const { state } = useLocation();
 
@@ -9,6 +26,8 @@ function Result() {
     }
 
     return (
+        <>
+            <Navbar />
         <div style={{ textAlign: "center", marginTop: "50px" }}>
 
             <h1>Exam Result</h1>
@@ -21,7 +40,8 @@ function Result() {
                 {state.isPassed ? "Passed" : "Failed"}
             </h2>
 
-        </div>
+            </div>
+        </>
     );
 }
 
