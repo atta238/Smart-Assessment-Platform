@@ -7,15 +7,15 @@ function Navbar2() {
     const location = useLocation();
 
     const handleLogout = () => {
-        localStorage.removeItem("token");
-        localStorage.removeItem("role");
+        sessionStorage.removeItem("token");
+        sessionStorage.removeItem("role");
         sessionStorage.removeItem("result");
         navigate("/");
     };
 
     const goHome = () => {
 
-        const role = localStorage.getItem("role");
+        const role = sessionStorage.getItem("role");
 
         if (role === "Instructor")
             navigate("/instructor");

@@ -15,7 +15,7 @@ function StudentDashboard() {
 
             try {
 
-                const token = localStorage.getItem("token");
+                const token = sessionStorage.getItem("token");
 
                 const response = await api.get("/Exam", {
                     headers: {

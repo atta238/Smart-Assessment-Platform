@@ -125,6 +125,7 @@ function EditQuestion() {
                         <input
                             className="input2"
                             type="number"
+                            min={0}
                             value={score}
                             onChange={(e) => setScore(Number(e.target.value))}
                         />

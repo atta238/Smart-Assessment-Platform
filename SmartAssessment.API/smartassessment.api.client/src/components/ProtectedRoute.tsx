@@ -8,8 +8,8 @@ type Props = {
 
 function ProtectedRoute({ children, role }: Props) {
 
-    const token = localStorage.getItem("token");
-    const userRole = localStorage.getItem("role");
+    const token = sessionStorage.getItem("token");
+    const userRole = sessionStorage.getItem("role");
 
     if (!token) {
         return <Navigate to="/login" replace />;

@@ -13,8 +13,8 @@ function Login() {
 
     useEffect(() => {
 
-        const token = localStorage.getItem("token");
-        const role = localStorage.getItem("role");
+        const token = sessionStorage.getItem("token");
+        const role = sessionStorage.getItem("role");
 
         if (!token)
             return;
@@ -38,8 +38,8 @@ function Login() {
             });
             const { token, role } = response.data;
 
-            localStorage.setItem("token", token);
-            localStorage.setItem("role", role);
+            sessionStorage.setItem("token", token);
+            sessionStorage.setItem("role", role);
 
             if (role === "Instructor") {
                 navigate("/instructor", { replace: true });

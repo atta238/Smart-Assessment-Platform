@@ -13,8 +13,8 @@ function Signup() {
     const [password, setPassword] = useState("");
     useEffect(() => {
 
-        const token = localStorage.getItem("token");
-        const role = localStorage.getItem("role");
+        const token = sessionStorage.getItem("token");
+        const role = sessionStorage.getItem("role");
 
         if (!token)
             return;

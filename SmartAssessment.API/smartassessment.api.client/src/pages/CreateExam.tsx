@@ -97,6 +97,7 @@ function CreateExam() {
                                 className="input2"
                                 type="number"
                                 name="duration"
+                                min={1}
                                 onChange={handleChange}
                             />
 
@@ -110,6 +111,8 @@ function CreateExam() {
                                 className="input2"
                                 type="number"
                                 name="passPercentage"
+                                min={0}
+                                max={100}
                                 onChange={handleChange}
                             />
 

@@ -101,6 +101,7 @@ function EditExam() {
                                 className="input2"
                                 type="number"
                                 name="duration"
+                                min={1}
                                 value={exam.duration}
                                 onChange={handleChange}
                             />
@@ -113,6 +114,8 @@ function EditExam() {
                                 className="input2"
                                 type="number"
                                 name="passPercentage"
+                                min={0}
+                                max={100}
                                 value={exam.passPercentage}
                                 onChange={handleChange}
                             />
