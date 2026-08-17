@@ -1,3 +1,4 @@
 D:\project_file\SmartAssessment.API\smartassessment.api.client\obj\Debug\smartassessment.api.client.esproj.CoreCompileInputs.cache
 C:\Users\madaa\OneDrive\Desktop\SmartAssessment\SmartAssessment.API\smartassessment.api.client\obj\Debug\smartassessment.api.client.esproj.CoreCompileInputs.cache
 C:\Users\madaa\OneDrive\Desktop\Smart-Assessment-Platform\SmartAssessment.API\smartassessment.api.client\obj\Debug\smartassessment.api.client.esproj.CoreCompileInputs.cache
+D:\Smart-Assessment-Platform\SmartAssessment.API\smartassessment.api.client\obj\Debug\smartassessment.api.client.esproj.CoreCompileInputs.cache

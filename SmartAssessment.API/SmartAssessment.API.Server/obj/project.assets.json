@@ -88,7 +88,7 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Microsoft.AspNetCore.SpaProxy/8.0.28": {
+      "Microsoft.AspNetCore.SpaProxy/8.0.30": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.AspNetCore.SpaProxy.dll": {}
@@ -1674,10 +1674,10 @@
         "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.SpaProxy/8.0.28": {
-      "sha512": "K4wzSkJzMp6jzxOYJObB3Tky8+InsbRTX5udC9HrOz/+tV588K1mdMh6c8DlSdl/3x6i+eKjnXYC4T9tNEuLcw==",
+    "Microsoft.AspNetCore.SpaProxy/8.0.30": {
+      "sha512": "0y8hv54yXWFHFYImzRXASHWl23tKuMouSWMB2AY2LKTnF/4gFl7c4fTSGk5YM9YikK8X79iNufBO6gGbGl6vCw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.spaproxy/8.0.28",
+      "path": "microsoft.aspnetcore.spaproxy/8.0.30",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1685,7 +1685,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "build/Microsoft.AspNetCore.SpaProxy.targets",
         "lib/net8.0/Microsoft.AspNetCore.SpaProxy.dll",
-        "microsoft.aspnetcore.spaproxy.8.0.28.nupkg.sha512",
+        "microsoft.aspnetcore.spaproxy.8.0.30.nupkg.sha512",
         "microsoft.aspnetcore.spaproxy.nuspec"
       ]
     },
@@ -4298,11 +4298,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj",
+      "projectUniqueName": "D:\\Smart-Assessment-Platform\\SmartAssessment.API\\SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj",
       "projectName": "SmartAssessment.API.Server",
-      "projectPath": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj",
+      "projectPath": "D:\\Smart-Assessment-Platform\\SmartAssessment.API\\SmartAssessment.API.Server\\SmartAssessment.API.Server.csproj",
       "packagesPath": "C:\\Users\\madaa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\madaa\\OneDrive\\Desktop\\Smart-Assessment-Platform\\SmartAssessment.API\\SmartAssessment.API.Server\\obj\\",
+      "outputPath": "D:\\Smart-Assessment-Platform\\SmartAssessment.API\\SmartAssessment.API.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4337,7 +4337,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.300"
+      "SdkAnalysisLevel": "10.0.400"
     },
     "frameworks": {
       "net8.0": {
@@ -4396,7 +4396,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
