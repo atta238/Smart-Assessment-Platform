@@ -1,168 +1,231 @@
-Project Name 
-# Smart-Assessment-Platform
-  
-Project Idea 
-..........................................................................................................................                   
-          ..................................................................................................................                 
- 
-Team Members 
-1. Mo'men Osman Mohamed 
-2. Sayed Osama Sayed	  
-3. Ahmed Mohamed Ahmed Atta
-4. Ahmed Eid	
-  
-Project Plan 
-A backend-focused intelligent online examination system designed to manage exams, evaluate students automatically, prevent cheating, and analyze performance.
+# Smart Assessment Platform
 
-The system supports role-based access (Admin, Instructor, Student), randomized exams, auto-grading, attempt tracking, and performance analytics. It focuses heavily on business logic, data integrity, security, and scalable architecture using RESTful APIs and JWT authentication.
+> **A full-stack online examination system built as the final project of the Full Stack .NET Track at the Digital Egypt Pioneers Initiative (DEPI).**
 
-1. Research & Analysis
-Audience Personas
+Smart Assessment Platform is a web-based examination system that manages the complete assessment workflow for **Admins, Instructors, and Students**. The project focuses on practical backend development, authentication and authorization, database-driven CRUD operations, and exam business logic.
 
-University Students
-Need secure online exams with fair grading.
+---
 
-Instructors
-Need easy exam creation, grading tools, and analytics.
+## 📌 Project Overview
 
-Academic Admins
-Need performance insights and system monitoring.
+The platform provides a structured way to create and manage exams, questions, and choices, while allowing students to start exams, track their remaining time, submit answers, and receive automatically calculated results.
 
-2. Visual Identity
-Logo Design
+The project was developed to apply real-world concepts from the **Full Stack .NET Track at DEPI**, with particular attention to API design, business rules, relational data modeling, and secure access to application resources.
 
-A modern minimal logo representing:
+---
 
-Digital assessment
+## ✨ Main Features
 
-Security (shield concept)
+### 🔐 Authentication & Authorization
 
-Intelligence (AI/analytics element)
+* User authentication using JWT.
+* Role-based access for **Instructor and Student**.
+* Protected endpoints based on authenticated user roles.
+* Password hashing using BCrypt.
 
-Color theme:
+### 📝 Exam Management
+
+* Create, read, update, and delete exams.
+* Configure exam duration and availability.
+* Manage exam questions and answer choices.
+* Associate exams with instructors.
+
+### 🎯 Student Examination Workflow
+
+* Start an exam and create a student attempt.
+* Track exam start time and remaining time.
+* Retrieve questions associated with an exam.
+* Submit answers after completing an attempt.
+* Handle exam-state business rules.
+
+### ✅ Automatic Grading
+
+* Automatic evaluation of supported question types.
+* Score calculation based on submitted answers.
+* Store student answers and exam results.
+
+### 🌐 RESTful API
+
+* Resource-based API endpoints for authentication, exams, questions, choices, and student exam operations.
+* Swagger/OpenAPI documentation for API exploration and testing.
+
+---
 
-Dark Blue (Trust & Professionalism)
+## 🛠️ Technologies Used
 
-Green (Success & Growth)
+### Backend
 
-3. Main Designs
-Poster
+* **C#**
+* **ASP.NET Core 8 Web API**
+* **Entity Framework Core 8**
+* **SQL Server**
+* **JWT Bearer Authentication**
+* **BCrypt.Net**
+* **Swagger / OpenAPI**
 
-Poster includes:
+### Frontend
 
-Project name
+* **React**
+* **TypeScript**
+* **Vite**
+* **React Router**
 
-Core features (Authentication, Randomized Exams, Anti-Cheating, Analytics)
+---
 
-Tech stack
+## 🏗️ Project Structure
 
-System architecture overview
+```text
+Smart-Assessment-Platform/
+│
+├── SmartAssessment.API/
+│   ├── SmartAssessment.API.Server/
+│   │   ├── Controllers/
+│   │   ├── DTOs/
+│   │   ├── Data/
+│   │   ├── Models/
+│   │   ├── Helpers/
+│   │   ├── Services/
+│   │   ├── Program.cs
+│   │   └── SmartAssessment.API.Server.csproj
+│   │
+│   └── smartassessment.api.client/
+│       ├── src/
+│       ├── package.json
+│       └── vite.config.*
+│
+├── data base/
+├── Phase1.docx
+└── README.md
+```
 
-4. Complementary Products
+The backend is organized around controllers, DTOs, data access, models, helpers, and services, while the frontend is maintained as a separate React/Vite client.
 
-API Documentation (Swagger)
+---
 
-ER Diagram
+## 🔄 Core Examination Flow
 
-Database Schema
+```text
+Instructor/Admin
+      │
+      ▼
+Create Exam
+      │
+      ▼
+Add Questions & Choices
+      │
+      ▼
+Student Starts Exam
+      │
+      ▼
+Student Attempt Created
+      │
+      ▼
+Answer Questions
+      │
+      ▼
+Submit Exam
+      │
+      ▼
+Automatic Grading
+      │
+      ▼
+Result / Score
+```
 
-Architecture Diagram (Clean Architecture layers)
+---
 
-Postman Collection
+## 🔑 API Areas
 
-5. Review & Finalization
+| Area           | Purpose                                        |
+| -------------- | ---------------------------------------------- |
+| Authentication | Login and JWT-based authentication             |
+| Exams          | Exam CRUD and exam configuration               |
+| Questions      | Question management and exam questions         |
+| Choices        | Answer-choice management                       |
+| Students       | Exam attempts, timing, submission, and grading |
 
-Code refactoring
+---
 
-Security testing (JWT validation)
+## 🚀 Getting Started
 
-API endpoint testing
+### Prerequisites
 
-Database normalization review
+Make sure you have the following installed:
 
-Performance testing
+* [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
+* [Node.js](https://nodejs.org/)
+* SQL Server
+* Visual Studio 2022 or another compatible .NET development environment
 
-6. Final Presentation
+### 1. Clone the Repository
 
-Presentation includes:
+```bash
+git clone https://github.com/moamenosman/Smart-Assessment-Platform.git
+cd Smart-Assessment-Platform
+```
 
-Problem Statement
+### 2. Configure the Database
 
-System Architecture
+Update the connection string in:
 
-Database Design
+```text
+SmartAssessment.API/SmartAssessment.API.Server/appsettings.json
+```
 
-Business Logic Highlights
+with your local SQL Server configuration.
 
-Anti-Cheating Logic
+> **Important:** Do not commit real database credentials, JWT secrets, or other sensitive configuration values to the repository.
 
-Live API Demo
+### 3. Run the Backend
 
-Future Improvements
+Open the solution:
 
-Roles & Responsibilities1️⃣ Mo'men Osman Mohamed – Project Coordinator & Backend Developer
+```text
+SmartAssessment.API/SmartAssessment.API.sln
+```
 
-Coordinating team workflow and task distribution
+Then restore dependencies and run the ASP.NET Core API:
 
-Designing system architecture (Clean Architecture)
+```bash
+dotnet restore
+dotnet run
+```
 
-Implementing Authentication & Authorization (JWT, Role-Based Access)
+### 4. Run the Frontend
 
-Ensuring API consistency and security standards
+Navigate to the client application:
 
-2️⃣ Sayed Osama Sayed – Database Designer & Exam Logic Developer
+```bash
+cd SmartAssessment.API/smartassessment.api.client
+npm install
+npm run dev
+```
 
-Designing ER Diagram and relational database schema
+The frontend will start through Vite, while the ASP.NET Core project hosts the backend API.
 
-Implementing Exam Management logic (start/end time, duration, attempts limit)
+---
 
-Ensuring data normalization and integrity
+## 📚 API Documentation
 
-Optimizing database queries
+When the backend is running, Swagger/OpenAPI can be used to explore and test the available endpoints.
 
-3️⃣ Ahmed Mohamed Ahmed Atta – Grading & Anti-Cheating Specialist
+The exact Swagger URL depends on the launch profile and local HTTPS configuration.
 
-Implementing Auto-Grading system (MCQ & True/False)
+---
 
-Developing score calculation algorithms
+## 👥 Team
 
-Designing and implementing Anti-Cheating logic
+### Smart Assessment Platform Team
 
-Handling time tracking and exam state management
+* **Mo'men Osman Mohamed**
+* **Sayed Osama Sayed**
+* **Ahmed Mohamed Ahmed Atta**
+* **Ahmed Eid**
 
-4️⃣ Ahmed Eid – Analytics & Reporting Engineer
+---
 
-Implementing performance analysis features
+## 🎓 DEPI
 
-Writing SQL aggregation queries for reports
+This project was developed as the **final project of the Full Stack .NET Track** at the **Digital Egypt Pioneers Initiative (DEPI)**.
 
-Calculating success/failure rates and averages
-
-Preparing final system reports and presentation materials
-
-KPIs (Key Performance Indicators)
-
-API response time < 300ms
-
-System uptime ≥ 99%
-
-Successful auto-grading accuracy 100%
-
-Cheating detection flag rate accuracy
-
-User adoption rate
-
-Average exam processing time
-
-Error rate < 2%
-
-Instructor  
-* Ashraf Sadeq
-  
- 
- 
-Project Files 
-You can find the full project files here: 
-https://github.com/moamenosman/Smart-Assessment-Platform
--------- 
-
+The project provided hands-on experience in building a complete web application and applying concepts including backend development, RESTful APIs, authentication, authorization, Entity Framework Core, SQL Server, React, and business logic.
