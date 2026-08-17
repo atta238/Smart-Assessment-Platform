@@ -218,9 +218,9 @@ The exact Swagger URL depends on the launch profile and local HTTPS configuratio
 ### Smart Assessment Platform Team
 
 * **Mo'men Osman Mohamed**
-* **Sayed Osama Sayed**
 * **Ahmed Mohamed Ahmed Atta**
 * **Ahmed Eid**
+* **Sayed Osama Sayed**
 
 ---
 
